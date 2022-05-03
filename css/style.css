@@ -289,3 +289,7 @@ a:active {
 .bio-progress-5::before {
   width: 50%;
 }
+
+.bio-progress-6::before {
+  width: 80%;
+}
