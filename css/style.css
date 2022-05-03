@@ -209,6 +209,7 @@ a:active {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 6.4rem;
+  text-shadow: 0.4rem 0.6rem 0.4rem var(--helper);
 }
 
 .hero-para {
@@ -221,23 +222,70 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*   border-radius: 50%;
-  overflow: hidden; */
 }
 
-.hero-img {
+.section-hero-image img {
   max-width: 80%;
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
 }
 
 /* ======= bio data section css ============ */
 
 .bio-image {
-  /*   display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-self: center;
 }
 
 .bio-image img {
   width: 80%;
   box-shadow: -2rem -2rem 0 0 var(--helper);
+}
+
+.bio-data-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 6.4rem 0;
+}
+
+.bio-stats h3 {
+  margin-bottom: 1rem;
+}
+
+.bio-progress-bar {
+  background: var(--para-tint);
+  border-radius: 10rem;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+}
+
+.bio-progress-bar::before {
+  content: "";
+  width: 80%;
+  height: 100%;
+  background: var(--gradientSupport);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.bio-progress-2::before {
+  width: 95%;
+}
+
+.bio-progress-3::before {
+  width: 80%;
+}
+
+.bio-progress-4::before {
+  width: 85%;
+}
+
+.bio-progress-5::before {
+  width: 50%;
 }
