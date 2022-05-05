@@ -315,6 +315,7 @@ a:active {
 
 .portfolio-images {
   gap: 3.2rem;
+  justify-content: center;
 }
 
 .portfolio-images img {
@@ -356,6 +357,10 @@ a:active {
   margin: 0;
   color: var(--white);
   text-decoration: none;
+}
+
+.hide-image {
+  display: none;
 }
 
 .p-btn-active {
