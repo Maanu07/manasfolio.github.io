@@ -366,3 +366,19 @@ a:active {
 .p-btn-active {
   transform: translateY(-1rem);
 }
+
+/* ==== Work data css ======  */
+.section-work-data {
+  background: var(--gradientSupport);
+  text-align: center;
+  color: var(--white);
+}
+
+.counter-numbers {
+  font-size: 4.8rem;
+}
+
+.section-work-data p {
+  color: var(--white);
+  text-transform: capitalize;
+}

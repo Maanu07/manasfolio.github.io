@@ -15,3 +15,20 @@ tab_btn_container.addEventListener("click", (e) => {
   img_containers.forEach((element) => element.classList.add("hide-image"));
   display_imgs.forEach((element) => element.classList.remove("hide-image"));
 });
+
+// counter section logic
+/* const counters = document.querySelectorAll(".counter-numbers");
+counters.forEach((element) => {
+  const countUpto = element.innerText;
+  let counter = 0;
+  const id = setInterval(handleIncrement, 0.000001);
+
+  function handleIncrement() {
+    if (counter == countUpto) {
+      element.innerText = `${counter}+`;
+      return clearInterval(id);
+    }
+    counter++;
+    element.innerText = counter;
+  }
+}); */
